@@ -48,10 +48,12 @@ Key questions explored:
 All visuals are in the `visuals/` folder.
 
 ```markdown
-![Churn by Tenure](visuals/churn_tenure.png)
-![Monthly Charges Distribution](visuals/monthly_charges_dist.png)
-![Services vs Churn](visuals/services_vs_churn.png)
+![Churn by Tenure](visuals/churn_by_tenure.png)
+![Salary vs Churn](visuals/salary_vs_churn.png)
+![Products vs Churn](visuals/products_vs_churn.png)
+
 ```
+📄 Data: [data/bank_customer_data.csv](data/bank_customer_data.csv)
 
 ---
 
