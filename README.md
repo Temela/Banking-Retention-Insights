@@ -1,124 +1,82 @@
 
-# 🏦 Banking Customer Retention Insights
+# 🏦 Banking Customer Retention Analysis
 
-A data-driven project focused on understanding customer churn and loyalty patterns in the banking sector. This project uses Python for analysis and Power BI for business-ready dashboards.
-
----
-
-## 📌 Business Objective
-
-Banks face the ongoing challenge of retaining customers in a competitive environment. The goal of this project is to:
-
-- Understand **why customers leave** (churn)
-- Identify the **key indicators** of churn
-- Recommend data-driven strategies to **boost retention**
+Understand what drives customer churn in the banking sector using Python and Power BI. This project combines visual exploration, business interpretation, and dashboard storytelling to guide data-driven retention strategies.
 
 ---
 
-## 🧠 Project Highlights
+## 🎯 Business Objective
 
-- Cleaned and processed raw banking customer data
-- Explored trends using statistical summaries and visualizations
-- Developed a Power BI dashboard for decision-makers
-- Proposed retention-focused business solutions
-
----
-
-## 📊 Exploratory Data Analysis (EDA)
-
-Key questions explored:
-
-- Which customer features correlate most with churn?
-- Are certain age groups or tenure segments more at risk?
-- What product combinations reduce churn likelihood?
-
-### Sample EDA Outputs
-
-| Feature               | Churn Trend                                              |
-|----------------------|----------------------------------------------------------|
-| Tenure               | Short-tenure customers churn more often                  |
-| Monthly Charges      | Higher monthly fees correlate with higher churn          |
-| Services Used        | Customers with more services are more loyal              |
-| Age and Gender       | No strong correlation, but younger males churn more      |
+- Identify key factors contributing to customer churn.
+- Visualize churn patterns by tenure, product ownership, and estimated salary.
+- Present insights interactively via a Power BI dashboard.
+- Provide actionable recommendations to improve customer retention.
 
 ---
 
-## 📈 Visualizations
-
-All visuals are in the `visuals/` folder.
-
-```markdown
-![Churn by Tenure](visuals/churn_by_tenure.png)
-![Salary vs Churn](visuals/salary_vs_churn.png)
-![Products vs Churn](visuals/products_vs_churn.png)
+## 📁 Project Structure
 
 ```
-📄 Data: [data/bank_customer_data.csv](data/bank_customer_data.csv)
+Banking-Customer-Retention-Analysis/
+├── README.md
+├── data/
+│   └── bank_customer_data.csv
+├── visuals/
+│   ├── churn_by_tenure.png
+│   ├── salary_vs_churn.png
+│   └── products_vs_churn.png
+├── powerbi/
+│   └── Bank_Customer_Retention_Report.pbix
+└── Banking_Retention_Analysis_Notebook.ipynb
+```
+
+---
+
+## 📊 Exploratory Data Analysis (Python)
+
+![Churn by Tenure](visuals/churn_by_tenure.png)
+![Estimated Salary vs Churn](visuals/salary_vs_churn.png)
+![Products Owned vs Churn](visuals/products_vs_churn.png)
+
+See full code and insights in the notebook:
+
+📓 [`Banking_Retention_Analysis_Notebook.ipynb`](Banking_Retention_Analysis_Notebook.ipynb)
+
+---
+
+## 📄 Dataset
+
+- 📁 [`data/bank_customer_data.csv`](data/bank_customer_data.csv)
+- Source: Simulated banking records
+- Features: Age, Balance, Tenure, Products, Active Status, Estimated Salary, Churn
 
 ---
 
 ## 📊 Power BI Dashboard
 
-The Power BI dashboard (located in `powerbi/`) provides:
-- Churn segmentation
-- Product usage patterns
-- KPI filters and slicers by demographics
+An interactive dashboard offering insights into churn patterns, product use, and retention strategies.
 
-📁 File: `Banking_Customer_Churn.pbix`
-
-Add visuals using:
-
-```markdown
-![Dashboard Overview](visuals/dashboard_overview.png)
-```
-
----
-
-## 📂 Dataset Description
-
-| Column Name     | Description                                        |
-|-----------------|----------------------------------------------------|
-| CustomerID      | Unique customer ID                                 |
-| Age             | Customer age                                       |
-| Gender          | Male / Female                                      |
-| Tenure          | Number of years as a customer                      |
-| Services        | Banking products owned                             |
-| MonthlyCharges  | Average monthly fees                               |
-| Churn           | Whether the customer has left the bank (Yes/No)    |
-
-Data available in: `data/Banking_Customer_Data.csv`
+📁 [Download Power BI Dashboard](powerbi/Bank_Customer_Retention_Report.pbix)
 
 ---
 
 ## 🛠 Tools Used
 
-- Python (Pandas, Seaborn, Matplotlib)
+- Python (Pandas, Matplotlib, Seaborn)
 - Power BI
 - Jupyter Notebook
-- GitHub for version control
+- VS Code
 
 ---
 
-## 🗃 Folder Structure
+## 📌 Key Insights
 
-```
-📁 data/             → Cleaned banking customer data
-📁 notebook/         → Jupyter analysis file
-📁 powerbi/          → Power BI reports (.pbix)
-📁 visuals/          → Images for README and presentation
-📄 README.md         → Project documentation
-📄 LICENSE           → MIT License
-```
+- Customers with shorter tenure are more likely to churn.
+- Higher product engagement correlates with lower churn rates.
+- Churn distribution varies by income, though less drastically.
 
 ---
 
-## 👤 Maintainer
+## 📃 License
 
-Maintained as an open educational and analytical resource by an independent contributor.  
-Feel free to use, adapt, and cite the work with credit.
-
----
-
-## 📜 License
-
-Distributed under the MIT License.
+MIT License. See `LICENSE` file for details.
