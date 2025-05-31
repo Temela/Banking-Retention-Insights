@@ -80,7 +80,15 @@ An interactive dashboard offering insights into churn patterns, product use, and
 - Churn distribution varies by income, though less drastically.
 
 ---
+## 🧭 Ethical Considerations
+- This project is built on simulated data and does not represent any real individuals or institutions.
+- All analyses were approached through a human-centered lens, focusing not just on churn rates but on the possible human experiences behind them—financial stress, service dissatisfaction, or digital exclusion.
+- Assumptions were critically reviewed to avoid reinforcing bias in income or product access.
+- Insights are shared with the intent to support inclusive decision-making, not to automate judgment on customers.
+- Any real-world adaptation of these methods must prioritize respect, transparency, and dignity for all users.
 
+| Good models should learn from people, not overrule them.
+---
 ## 📃 License
 
 MIT License. See `LICENSE` file for details.
