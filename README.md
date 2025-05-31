@@ -1,6 +1,10 @@
 
 # 🏦 Banking Customer Retention Analysis
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Temela/Banking-Retention-Insights/main/banner.png" alt="Banking Retention Banner" />
+</p>
+
 Understand what drives customer churn in the banking sector using Python and Power BI. This project combines visual exploration, business interpretation, and dashboard storytelling to guide data-driven retention strategies.
 
 ---
